@@ -14,4 +14,5 @@ function NoNotificationsFound() {
   );
 }
 
+
 export default NoNotificationsFound;

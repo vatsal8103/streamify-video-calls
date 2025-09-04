@@ -129,6 +129,7 @@ export async function onboard(req, res) {
       { new: true }
     );
 
+    
     if (!updatedUser) return res.status(404).json({ message: "User not found" });
 
     try {

@@ -4,6 +4,7 @@ import { BellIcon, ClockIcon, MessageSquareIcon, UserCheckIcon } from "lucide-re
 import NoNotificationsFound from "../components/NoNotificationsFound";
 
 const NotificationsPage = () => {
+
   const queryClient = useQueryClient();
 
   const { data: friendRequests, isLoading } = useQuery({

@@ -9,4 +9,5 @@ const NoFriendsFound = () => {
   );
 };
 
+
 export default NoFriendsFound;

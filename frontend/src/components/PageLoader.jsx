@@ -9,4 +9,5 @@ const PageLoader = () => {
     </div>
   );
 };
+
 export default PageLoader;
